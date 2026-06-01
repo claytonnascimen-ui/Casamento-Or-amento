@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-brand-olive: #5A5A40;
+  --color-brand-gold: #D4AF37;
+  --color-brand-charcoal: #2D2926;
+  --color-brand-beige: #F5F2ED;
+  --color-brand-text-gray: #8C857B;
+  --color-brand-border: #E8E2D9;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FDFBF7; /* Bento background */
+  color: #2D2926; /* Bento charcoal text */
+}
+
+/* Accent rules & animations */
+.wedding-card {
+  background: white;
+  border: 1px solid #E8E2D9;
+  border-radius: 1.5rem; /* 24px is 3xl */
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.text-gold {
+  color: #D4AF37;
+}
+
+.bg-gold {
+  background-color: #D4AF37;
+}
+
+.border-gold {
+  borderColor: #D4AF37;
+}

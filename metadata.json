@@ -1,0 +1,6 @@
+{
+  "name": "Gerenciador de Casamento de Elite",
+  "description": "Uma aplicação completa para planejamento de casamentos com controle de orçamento, fornecedores, cronograma, lista de convidados, confirmações RSVP e assistente inteligente IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
